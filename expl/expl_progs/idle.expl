@@ -6,9 +6,9 @@ int main()
 	enddecl
 	begin
 		b = 1;
-		c = "idle";
 		while(1==1) do
 			a = 1;
+			// a = exposcall ("Write", -2, "idle");
 		endwhile;
 		return 0;
 	end
